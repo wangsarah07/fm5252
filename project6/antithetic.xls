@@ -1,0 +1,15 @@
+This file is for testing my Monte Carlo Simulation to ensure the antithetic method reduces the standard error		
+		
+Type	Call	
+S0	50	
+K	50	
+Rate	0.05	
+Volatility	0.5	
+Steps 	50	
+Time	1	
+		
+Simulations	Regular	Antithetic
+10	4.22	2.52
+100	1.72	1.55
+1000	0.66	0.36
+10000	0.21	0.12
